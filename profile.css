@@ -1,0 +1,118 @@
+
+ul li{
+  list-style: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.cover-profile{
+  margin-top: 20vh;
+}
+/* Info box */
+.profile-container{
+  display: grid;
+  margin: 5rem auto 5rem auto;
+  max-width: 1140px;
+  grid-template-columns: 1fr 2fr;
+}
+.profile-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 600px;
+  background: #F2F2F2;
+  position: relative;
+  top: -240px;
+  border-radius: 15px;
+}
+.social-button,.social-button2{
+  text-align: center;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5em;
+}
+.follow-btn{
+  padding: 10px 20px !important;
+  background: #0061f2;
+  color: white;
+  border-radius: 17.5px !important;
+  border: transparent !important;
+  font-size: 14px;
+}
+.social-button a,.social-button2 a{
+  padding: .5em;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.profile-img{
+  height:167px ;
+  width:167px;
+   overflow:hidden;
+   border-radius: 50%;
+   margin-bottom: 22px;
+
+}
+.features{
+  margin-bottom: 3rem;
+}
+.features ul{
+  display: flex;
+  justify-content: start;
+}
+.features ul li{
+  margin-right:1em;
+}
+.feature-img-list{
+  display: flex;
+}
+.features ul li a{
+  padding: .5em 1em;
+  border-radius: 1em;
+}
+.feature-hightlight{
+  background: #d9d9d9;
+}
+.img-list{
+  width: 200px;
+  height: 250px;
+  border-radius: 1em;
+  background: silver;
+  margin-right: 1em;
+}
+
+
+
+.info-box h1{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 12px;
+  font-weight: normal;
+}
+.info-box p{
+  font-size: 14px;
+  text-align: center;
+  color: #6F6F6F;
+}
+.info-box h4{
+  font-size: 14px;
+  margin-top: 27px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: normal;
+  color: #6F6F6F;
+}
+.info-box a p{
+  font-size: 14px;
+  color: #6F6F6F;
+  text-align: center;
+}
+.info-box .social-button a{
+  margin-top: 26px;
+}
+/* Từ follow đến các icon margin bottom 116px */
