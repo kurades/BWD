@@ -1,0 +1,223 @@
+/*Chapter Section*/
+.container{
+  margin-top: 10em;
+}
+.title-chapter h1{
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 4em;
+}
+
+.read-button{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 40px;
+}
+.read-button button{
+   margin: 20px 0;
+    display: block;
+    padding: 20px 40px;
+    opacity: .8;
+    color: #FFF;
+    background: #0061f2;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .3s ease-in;
+    border-radius: 10px;
+}
+
+/*Comment Section*/
+.wrapper {
+    max-width: 1140px;
+    padding: 20px;
+    background: #FFF;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.3); */
+    /* width: 600px; */
+    min-height: 400px;
+    margin: auto;
+    align-items: center;
+    margin-top: 10em;
+}
+.wrapper h1{
+    margin: 20px 0;
+}
+.wrapper .rowcomment {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.wrapper .form .rowcomment .input-group {
+    padding: 0 10px;
+    display: block;
+}
+
+.wrapper .form .rowcomment .input-group:first-child {
+    padding-left: 0;
+}
+
+.wrapper .form .rowcomment .input-group:last-child {
+    padding-right: 0;
+}
+
+.wrapper .form .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper .form .input-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.wrapper .form .input-group .btn {
+    margin: 20px 0;
+    display: block;
+    padding: 20px 40px;
+    opacity: .8;
+    color: #FFF;
+    background: #0061f2;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .3s ease-in;
+    border-radius: 10px;
+}
+
+.wrapper .form .input-group .btn:hover {
+    opacity: 1;
+}
+
+.wrapper .form .input-group input, .wrapper .form .input-group textarea {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #00b894; */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    border-width: 0px;
+    outline: none;
+    padding: 5px 10px;
+    
+}
+
+.wrapper .form .input-group.textarea {
+    height: 200px;
+}
+
+.wrapper .form .input-group.textarea textarea {
+    resize: none;
+}
+
+.wrapper .prev-comments {
+    margin-top: 50px;
+}
+
+.wrapper .prev-comments .single-item {
+    background: #FFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.wrapper .prev-comments .single-item h4 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #111;
+}
+
+.wrapper .prev-comments .single-item a {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #111;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.wrapper .prev-comments .single-item p {
+    font-size: .9rem;
+    color: #111;
+}
+/*Footer*/
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: auto;
+    width: 100vw;
+    padding-top: 120px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+footer hr{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #0061f2;
+}
+
+.footer-bottom{
+    
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

@@ -1,0 +1,145 @@
+/* banner */
+a{
+  text-decoration: none;
+  color: black;
+}
+.search-banner{
+  width: 100%;
+  height: 50vh;
+  margin-top: 90px;
+}
+.search-banner-img{
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius:1em; 
+}
+.search-banner-img img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  filter: brightness(95%);
+  object-fit: cover;
+}
+/* search section */
+.search-section{
+  position: relative;
+  width: 70%;
+  display: flex;
+  padding: 2em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+  
+}
+.search-section input[type="text"]{
+  background: #F3F3F3;
+  border-radius: 8px;
+  border: none;
+  padding: 1em 2em;
+  font-size: 20px;
+  
+}
+.search-section button{
+  position: relative;
+  background: #547BDF;
+  border-radius:50%; 
+  padding: 1.5em;
+  border: none;
+  cursor: pointer;
+  color: white;
+  
+}
+.search-status{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.search-section p{
+  position: relative;
+  left: -40px;
+}
+.search-status a{
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  padding: 1em 2em;
+  background: #F3F3F3;
+}
+
+/* list */
+.search-latest{
+  width: 100%;
+  margin-top: 35vh;
+}
+
+.home-recent{
+  margin-top: -2px;
+  padding-top: 100px;
+  background: #0061f2;
+}
+/*Footer*/
+footer{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: auto;
+    width: 100vw;
+    padding-top: 120px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    
+}
+footer hr{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+.footer-bottom{
+    
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

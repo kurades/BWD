@@ -213,6 +213,8 @@ body {
    }
 }
 
+
+/*Footer*/
 footer{
     
     bottom: 0;
@@ -221,9 +223,15 @@ footer{
     
     height: auto;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 120px;
     color: rgb(0, 0, 0);
     position: relative;
+    
+}
+footer hr{
+  margin: auto;
+  width: 50%;
+  margin-bottom: 20px;
 }
 .footer-content{
     display: flex;
